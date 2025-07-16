@@ -472,3 +472,83 @@ h3 {
     outline: none;
     border: 1px solid #ccc;
 }
+
+/* ----------- Responsive Design for Mobile View ----------- */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        text-align: left;
+        width: 100%;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav-links ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .text-box h1 {
+        font-size: 28px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .course-col,
+    .campus-col,
+    .facilities-col,
+    .testimonial-col,
+    .contact-col,
+    .aboout-col,
+    .about-col,
+    .blog-left,
+    .blog-right {
+        flex-basis: 100%;
+    }
+
+    .testimonial-col {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonial-col img {
+        margin: 0 0 15px 0;
+    }
+
+    .hero-button {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+
+    .contact-us h1 {
+        font-size: 24px;
+    }
+
+    .blog-right div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .layer h3 {
+        font-size: 20px;
+    }
+
+    .sub-header h1 {
+        font-size: 28px;
+    }
+
+    .footer h4 {
+        font-size: 16px;
+    }
+}
+
